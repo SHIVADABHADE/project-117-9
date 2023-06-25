@@ -1,0 +1,33 @@
+body{
+    background-color: white;
+}
+h1{
+    background-color: blue;
+    color: red;
+}
+#show_sketch{
+    float:right
+}
+canvas{
+    border: 5px solid white;
+    animation-name: Gabimaru;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+@keyframes Gabimaru{
+    from{box-shadow:2px 2px 60px black}
+    to{box-shadow: 2px 2px 60px darkblue;}
+}
+p{
+    font-size: 25px;
+    color: black;
+}
+#score{
+    float: left;
+    font-size: 30px;
+}
+#Timer{
+    float: right;
+    font-size: 30px;
+}
